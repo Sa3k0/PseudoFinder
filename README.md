@@ -1,6 +1,6 @@
-# Dox3r
+# PseudoFinder
 
-**DOX3R c'est quoi ?**
+**PseudoFinder c'est quoi ?**
 
 C'est un logiciel permettant de retrouver un utilisateur sur un site web
 
@@ -10,11 +10,11 @@ C'est un logiciel permettant de retrouver un utilisateur sur un site web
 * pip3 install pylint
 * pip3 install requests
 
-**DÉMARRER DOX3R**
+**DÉMARRER PseudoFinder**
 
-* git clone https://github.com/Sa3k0/Dox3r.git
-* cd dox3r
-* python3 dox3r.py
+* git clone https://github.com/Sa3k0/PseudoFinder.git
+* cd PseudoFinder
+* python3 PseudoFinder.py
 
 **DISCLAIMER**
 
