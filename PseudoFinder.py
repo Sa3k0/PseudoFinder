@@ -92,7 +92,7 @@ def banner():
    ░        ░ ░   ░    ░     ░  ░   ░     
  ░                                        
                                                                         
-        \033[33m DOX3R outil de recherche avancée \033[33m  
+        \033[33m PseudoFinder outil de recherche avancée \033[33m  
         \033[33m Developpeur : \032 https://github.com/Sa3k0 
         """)
 
@@ -115,9 +115,10 @@ def search():
                 match = False
             PURPLE(f'\n{url} - {r.status_code} - [✓]')
             if username in r.text:
-                GREEN(f'[DOX3R] TROUVER : Username : {username} - Utilisateur trouver dans ce site web ')
+                GREEN(f'[PseudoFinder] TROUVER : Username : {username} - Utilisateur trouver dans ce site web ')
             else:
-                GREEN(f'[DOX3R] INTROUVABLE : Username :{username} - \033[91m Utilisateur introuvable')
+                GREEN(f'[
+                      X3R] INTROUVABLE : Username :{username} - \033[91m Utilisateur introuvable')
 
     print(bcolors.Redd + f'Fin de la recherche pour {username}.')
 
